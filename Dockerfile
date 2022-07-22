@@ -1,5 +1,5 @@
 # python3.10 -m venv venv
-FROM python:3.10
+FROM python:3.9
 
 # Common practice is to update all packages
 RUN apt-get update -y && apt-get install graphviz xdg-utils -y
